@@ -183,7 +183,7 @@
   content: "\e070";
 }
 .lg-toolbar .lg-download:after {
-  content: "\e0f2";
+  content: "\e0f2" !important;
 }
 
 .lg-sub-html {
