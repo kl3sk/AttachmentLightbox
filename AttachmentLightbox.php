@@ -43,6 +43,8 @@ class AttachmentLightboxPlugin extends MantisPlugin
     {
         # Implement the Jquery files
         echo '<script type="text/javascript" src="' . plugin_file('js/lightgallery.js') . '"></script>';
+        echo '<script type="text/javascript" src="' . plugin_file('js/lg-fullscreen.js') . '"></script>';
+        echo '<script type="text/javascript" src="' . plugin_file('js/lg-zoom.js') . '"></script>';
         echo '<script type="text/javascript" src="' . plugin_file('js/lightbox.js') . '"></script>';
     }
 
