@@ -1,4 +1,4 @@
-# AttachmentLightbox (WIP)
+# AttachmentLightbox
 
 Usable as is, but may require some adjustments
 
