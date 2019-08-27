@@ -1,0 +1,2 @@
+# Lightgallery
+LICENCE-LG.md
