@@ -1,8 +1,8 @@
 <?php
 
-/** Plugin declaration
+/**
  * extends MantisPlugin
- * Example plugin that implements Jquery files
+ * Provide a lightbox like to bugnotes images
  */
 
 class AttachmentLightboxPlugin extends MantisPlugin
@@ -37,20 +37,20 @@ class AttachmentLightboxPlugin extends MantisPlugin
         return $hooks;
     }
 
-    # This method will echo our '<script>'
+    # This method will echo '<script>' before closing '<body>'
     public function lightbox_scripts()
     {
-        # Implement the Jquery files
+        # Implement the javascript files
         echo '<script type="text/javascript" src="' . plugin_file('js/lightgallery.js') . '"></script>';
         echo '<script type="text/javascript" src="' . plugin_file('js/lg-fullscreen.js') . '"></script>';
         echo '<script type="text/javascript" src="' . plugin_file('js/lg-zoom.js') . '"></script>';
         echo '<script type="text/javascript" src="' . plugin_file('js/lightbox.js') . '"></script>';
     }
 
-    # This method will echo our '<script>' link to Jquery
+    # This method will echo '<link>' in '<header>'
     public function lightbox_css()
     {
-        # Implement the Jquery files
+        # Implement the stylesheet file
         echo '<link rel="stylesheet" type="text/css" href="' . plugin_file('css/lightgallery.css') . '"/>';
     }
 }
