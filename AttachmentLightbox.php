@@ -33,7 +33,6 @@ class AttachmentLightboxPlugin extends MantisPlugin
         # add in our plugin's hooks.
         $hooks['EVENT_LAYOUT_RESOURCES'] = 'lightbox_css';
         $hooks['EVENT_LAYOUT_PAGE_FOOTER'] = 'lightbox_scripts';
-        $hooks['EVENT_CORE_HEADERS'] = 'csp_headers';
 
         return $hooks;
     }
